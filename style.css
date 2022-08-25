@@ -1,0 +1,17 @@
+h1{
+    width: 100%;
+    margin: 0;
+}
+
+canvas{
+    border: 5px solid yellow;
+    border-radius: 20px;
+    animation-name: color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color{
+    from{box-shadow: 5px 5px 5px  yellow;}
+    to{box-shadow: 5px 5px 5px red;}
+}
